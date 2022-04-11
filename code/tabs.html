@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation">
+
+<head>
+    <!-- Site Title-->
+    <title>Tabs & Accordions</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,600,800,300,700italic,800italic%7CRoboto:300,400,700">
+    <link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+  </head>
+  <body>
+    <!-- Page-->
+    <div class="page text-center">
+      <!-- Page Header-->
+      <header class="page-header">
+        <!-- TX Navbar-->
+        <div class="tx-navbar-wrap">
+          <nav data-layout="tx-navbar-fixed" data-sm-layout="tx-navbar-fixed" data-md-layout="tx-navbar-fullwidth" data-md-device-layout="tx-navbar-fixed" data-lg-layout="tx-navbar-static" data-lg-device-layout="tx-navbar-fixed" data-sm-stick-up-offset="30px" data-lg-stick-up-offset="30px" class="tx-navbar">
+            <!-- TX Navbar Top Panel-->
+            <div data-tx-navbar-toggle=".tx-navbar-top-panel" class="tx-navbar-collapse-toggle"></div>
+            <div class="tx-navbar-top-panel">
+              <div class="tx-navbar-top-panel-inner">
+                <div class="text-left reveal-flex tx-navbar-top-panel-first">
+                  <div>66 Noe Street Los Angeles, CA 12365</div>
+                  <div class="border-left">Call Us: <a href="callto:#">+4 (123) 456–7890</a></div>
+                </div>
+                <div class="text-right">
+                  <p>Week Days: 08:00–22:00 · Saturday: 08:00–17:00 · Sunday: CLOSED</p>
+                </div>
+              </div>
+            </div>
+            <div class="tx-navbar-inner">
+              <!-- TX Navbar Panel-->
+              <div class="tx-navbar-panel">
+                <!-- TX Navbar Toggle-->
+                <button data-tx-navbar-toggle=".tx-navbar-nav-wrap" class="tx-navbar-toggle"><span></span></button>
+                <!-- TX Navbar Brand-->
+                <div class="tx-navbar-brand"><a href="index.html" class="reveal-inline-block"><img src="images/logo.png" width="154" height="27" alt=""></a></div>
+              </div>
+              <div class="tx-navbar-nav-wrap">
+                <!-- TX Navbar Nav-->
+                <ul class="tx-navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="active"><a href="classes.html">Pages</a>
+                    <!-- TX Navbar Dropdown-->
+                    <ul class="tx-navbar-dropdown">
+                      <li><a href="#">Elements</a>
+                        <!-- TX Navbar Dropdown-->
+                        <ul class="tx-navbar-dropdown">
+                          <li><a href="buttons.html">Buttons</a></li>
+                          <li><a href="forms.html">Forms</a></li>
+                          <li><a href="grid.html">Grid</a></li>
+                          <li><a href="bars.html">Skill bars</a></li>
+                          <li><a href="typography.html">Typography</a></li>
+                          <li><a href="tables.html">Tables</a></li>
+                          <li><a href="tabs.html">Tabs & Accordions</a></li>
+                          <li><a href="icons.html">Icons</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="coach.html">Coach</a></li>
+                      <li><a href="classes.html">Classes</a></li>
+                      <li><a href="shop.html">Shop</a></li>
+                      <li><a href="shop-single-product.html">Single product</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="calendar.html">Calendar</a></li>
+                  <li><a href="trainers.html">Trainers</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="blog-list.html">Blog</a>
+                    <!-- TX Navbar Dropdown-->
+                    <ul class="tx-navbar-dropdown">
+                      <li><a href="blog-list.html">Blog list</a></li>
+                      <li><a href="blog-single-post.html">Single post</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                  <li class="veil tx-navbar-fixed--visible"><a href="shop.html">Cart</a></li>
+                </ul>
+              </div>
+              <div class="tx-navbar-right">
+                <!-- TX Search-->
+                <div class="tx-search-wrapper">
+                  <div data-custom-toggle=".tx-search-wrapper" data-custom-toggle-disable-on-blur="true" class="icon-sm tx-search-toggle fl-bigmug-line-search74"></div>
+                  <form action="index.html" method="POST" data-search-live="tx-search-results-live" class="tx-search">
+                    <div class="form-group">
+                      <label for="tx-search-form-input" class="form-label">Search...</label>
+                      <input id="tx-search-form-input" type="text" name="s" autocomplete="off" class="form-control">
+                      <button class="fl-bigmug-line-search74 icon icon-sm"></button>
+                    </div>
+                    <div id="tx-search-results-live" class="tx-search-results-live"></div>
+                  </form>
+                </div>
+                <hr class="divider-custom">
+                <!-- TX Search--><a href="shop.html" class="tx-navbar-shop"><span class="text-middle icon fl-bigmug-line-shopping202 icon-sm"></span><span class="text-middle text-nowrap text-uppercase text-spacing-25">2 item(s) — $45.00</span></a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Page Content-->
+      <main class="page-content">
+        <!-- TX Parallax-->
+        <section class="tx-parallax context-dark">
+          <div data-speed="0.2" data-type="media" data-url="http://placehold.it/1920x274" class="tx-parallax-layer"></div>
+          <div data-speed="0" data-type="html" class="tx-parallax-layer">
+            <div class="shell section-42 section-lg-70">
+              <h2><span class="big">Tabs & Accordions</span></h2>
+            </div>
+          </div>
+        </section>
+        <section>
+          <ol class="breadcrumb-custom">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Elements</a></li>
+            <li class="active">Tabs & Accordions</li>
+          </ol>
+        </section>
+        <section class="section-70 section-lg-90">
+          <div class="shell">
+            <h2>Horizontal Tabs</h2>
+            <div class="range range-xs-center offset-top-40 text-md-left">
+              <div class="cell-lg-10">
+                <!-- Nav tabs-->
+                <ul role="tablist" class="nav nav-pills">
+                  <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Tab 1</a></li>
+                  <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Tab 2</a></li>
+                  <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Tab 3</a></li>
+                  <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Tab 4</a></li>
+                  <li role="presentation"><a href="#qwe" aria-controls="qwe" role="tab" data-toggle="tab">Tab 5</a></li>
+                </ul>
+                <!-- Tab panes-->
+                <div class="tab-content text-base">
+                  <div id="home" role="tabpanel" class="tab-pane active">PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!</div>
+                  <div id="profile" role="tabpanel" class="tab-pane">The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the 20th century.</div>
+                  <div id="messages" role="tabpanel" class="tab-pane">PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!</div>
+                  <div id="settings" role="tabpanel" class="tab-pane">The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the 20th century.</div>
+                  <div id="qwe" role="tabpanel" class="tab-pane">
+                    PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shell section-70 section-lg-top-80">
+            <h2>Vertical Tabs</h2>
+            <div class="range range-xs-center offset-top-32 text-sm-left">
+              <div class="cell-lg-10">
+                <!-- Nav tabs-->
+                <div class="tab-wrapper">
+                  <ul role="tablist" class="nav nav-pills">
+                    <li role="presentation" class="active"><a href="#home1" aria-controls="home1" role="tab" data-toggle="tab">Tab 1</a></li>
+                    <li role="presentation"><a href="#profile1" aria-controls="profile1" role="tab" data-toggle="tab">Tab 2</a></li>
+                    <li role="presentation"><a href="#messages1" aria-controls="messages1" role="tab" data-toggle="tab">Tab 3</a></li>
+                    <li role="presentation"><a href="#settings1" aria-controls="settings1" role="tab" data-toggle="tab">Tab 4</a></li>
+                  </ul>
+                  <!-- Tab panes-->
+                  <div class="tab-content text-base">
+                    <div id="home1" role="tabpanel" class="tab-pane active">
+                      The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the 20th century. The origins of Yoga have been speculated to date back to pre-Vedic Indian traditions, but most likely developed around the sixth andfifth centuries BCE, in ancient India’s ascetic circles, which are also credited with the early sramana movements. The chronology of
+                      earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later.
+                      <br>
+                      <br>
+                      PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!
+                    </div>
+                    <div id="profile1" role="tabpanel" class="tab-pane">
+                      PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!
+                      <br>
+                      <br>
+                      The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the 20th century. The origins of Yoga have been speculated to date back to pre-Vedic Indian traditions, but most likely developed around the sixth andfifth centuries BCE, in ancient India’s ascetic circles, which are also credited with the early sramana movements. The chronology of
+                      earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later.
+                    </div>
+                    <div id="messages1" role="tabpanel" class="tab-pane">
+                      The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the 20th century. The origins of Yoga have been speculated to date back to pre-Vedic Indian traditions, but most likely developed around the sixth andfifth centuries BCE, in ancient India’s ascetic circles, which are also credited with the early sramana movements. The chronology of
+                      earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later.
+                      <br>
+                      <br>
+                      PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!
+                    </div>
+                    <div id="settings1" role="tabpanel" class="tab-pane">
+                      PureGym is not just a GYM. We're a family of like-minded and high-spirited people. We come together daily to inspire, challenge, and motivate each other to do more... To become more! To max out each day and achieve the results previously deemed impossible!
+                      <br>
+                      <br>
+                      The chronology of earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later. The Yoga Sutras of Patanjali date from the first half of the 1st millennium CE, but only gained prominence in the 20th century. The origins of Yoga have been speculated to date back to pre-Vedic Indian traditions, but most likely developed around the sixth andfifth centuries BCE, in ancient India’s ascetic circles, which are also credited with the early sramana movements. The chronology of
+                      earliest texts describing yoga-practices is unclear, varyingly credited to Hindu Upanishads and Buddhist Pāli Canon, probably of third century BCE or later.
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shell">
+            <h2>Accordion</h2>
+            <div class="range range-xs-center offset-top-32 text-sm-left">
+              <div class="cell-lg-8">
+                <div id="accordion" role="tablist" aria-multiselectable="true" class="panel-group">
+                  <div role="tab" class="panel">
+                    <div id="headingOne"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="panel-heading">
+                        <h4 class="panel-title">How does the 14-day trial work?</h4></a></div>
+                    <div id="collapseOne" role="tabpanel" aria-labelledby="headingOne" class="panel-collapse collapse in">
+                      <div class="panel-body">After your trial ends, you can pay for your favorite workout course you selected before using cash or credit card. However, if you choose a different course, you won’t be able to try it for free before buying. If you have already been our loyal member for a year, you also get permanent discounts on our membership plans.</div>
+                    </div>
+                  </div>
+                  <div role="tab" class="panel">
+                    <div id="headingTwo"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="panel-heading">
+                        <h4 class="panel-title">What happens at the end of my trial?</h4></a></div>
+                    <div id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" class="panel-collapse collapse">
+                      <div class="panel-body">After your trial ends, you can pay for your favorite workout course you selected before using cash or credit card. However, if you choose a different course, you won’t be able to try it for free before buying. If you have already been our loyal member for a year, you also get permanent discounts on our membership plans.</div>
+                    </div>
+                  </div>
+                  <div role="tab" class="panel">
+                    <div id="headingThree"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="panel-heading">
+                        <h4 class="panel-title">My account has expired, can I recover it?</h4></a></div>
+                    <div id="collapseThree" role="tabpanel" aria-labelledby="headingThree" class="panel-collapse collapse">
+                      <div class="panel-body">After your trial ends, you can pay for your favorite workout course you selected before using cash or credit card. However, if you choose a different course, you won’t be able to try it for free before buying. If you have already been our loyal member for a year, you also get permanent discounts on our membership plans.</div>
+                    </div>
+                  </div>
+                  <div role="tab" class="panel">
+                    <div id="headingFive"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive" class="panel-heading">
+                        <h4 class="panel-title">Can I change/cancel plans anytime?</h4></a></div>
+                    <div id="collapseFive" role="tabpanel" aria-labelledby="headingFive" class="panel-collapse collapse">
+                      <div class="panel-body">After your trial ends, you can pay for your favorite workout course you selected before using cash or credit card. However, if you choose a different course, you won’t be able to try it for free before buying. If you have already been our loyal member for a year, you also get permanent discounts on our membership plans.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- Page Footer-->
+      <footer class="page-footer context-dark">
+        <!-- TX Parallax-->
+        <section class="tx-parallax">
+          <div data-speed="0.5" data-type="media" data-url="http://placehold.it/1920x808" class="tx-parallax-layer"></div>
+          <div data-speed="0" data-type="html" class="tx-parallax-layer">
+            <div class="section-top-55 section-bottom-80 text-sm-left">
+              <div class="shell">
+                <div class="range range-xs-center">
+                  <div class="cell-lg-2 cell-sm-6 cell-md-3">
+                    <h5>About Us</h5>
+                    <p>
+                      Our gym is a perfect place
+                      for everyone to enjoy sports,
+                      bodybuilding, and fitness.
+                      With us you can reach your
+                      top physical condition!
+                    </p>
+                    <ul class="list-inline">
+                      <li><a href="#" class="icon icon-circle icon-white icon-border icon-xxs fa-facebook"></a></li>
+                      <li><a href="#" class="icon icon-circle icon-white icon-border icon-xxs fa-instagram"></a></li>
+                      <li><a href="#" class="icon icon-circle icon-white icon-border icon-xxs fa-twitter"></a></li>
+                      <li><a href="#" class="icon icon-circle icon-white icon-border icon-xxs fa-google-plus"></a></li>
+                    </ul>
+                  </div>
+                  <div class="offset-top-40 offset-sm-top-0 cell-xs-8 cell-sm-6 cell-md-3 cell-lg-preffix-1">
+                    <h5>Contact info</h5>
+                    <div class="media text-left">
+                      <div class="media-left"><span class="text-dark icon fl-budicons-free-placeholder22"></span></div>
+                      <div class="media-body">
+                        <p><a href="#">
+                            818 Noe Street
+                            Los Angeles, CA 12365</a></p>
+                      </div>
+                    </div>
+                    <div class="media text-left">
+                      <div class="media-left"><span class="text-dark icon fl-bigmug-line-cellphone55"></span></div>
+                      <div class="media-body">
+                        <div>
+                          <p><a href="callto:#">+4 (123) 456–7890</a> — Office
+                          </p>
+                        </div>
+                        <p><a href="callto:#">+4 (123) 456–7890</a> — Fax
+                        </p>
+                      </div>
+                    </div>
+                    <div class="media text-left">
+                      <div class="media-left"><span class="text-dark icon fl-budicons-free-email75"></span></div>
+                      <div class="media-body media-middle">
+                        <p><a href="mailto:#">support@envato.com</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="cell-sm-6 cell-md-3 offset-top-40 offset-md-top-0">
+                    <h5>OPENING HOURS</h5>
+                    <dl>
+                      <dt class="text-pale">Monday: </dt>
+                      <dd>8 am–10 pm</dd>
+                    </dl>
+                    <dl>
+                      <dt class="text-pale">Wednesday: </dt>
+                      <dd>8 am–10 pm</dd>
+                    </dl>
+                    <dl>
+                      <dt class="text-pale">Friday: </dt>
+                      <dd>8 am–10 pm</dd>
+                    </dl>
+                    <dl>
+                      <dt class="text-pale">Saturday: </dt>
+                      <dd>8 am–5 pm</dd>
+                    </dl>
+                    <dl>
+                      <dt class="text-pale">Sunday: </dt>
+                      <dd>Closed</dd>
+                    </dl>
+                  </div>
+                  <div class="cell-xs-9 cell-sm-6 cell-md-3 offset-top-40 offset-md-top-0">
+                    <h5>Recent Posts</h5>
+                    <div class="media media-offset-1 text-left">
+                      <div class="media-left"><img src="http://placehold.it/70x70" width="70" height="70" alt="" class="img-rounded"></div>
+                      <div class="media-body">
+                        <p><a href="blog-single-post.html">Lorem ipsum dolor sit amet, consectetur elit.</a></p>
+                        <div class="small text-pale text-light">Feb 4, 2016 / 4 Comments</div>
+                      </div>
+                    </div>
+                    <div class="media media-offset-1 text-left">
+                      <div class="media-left"><img src="http://placehold.it/70x70" width="70" height="70" alt="" class="img-rounded"></div>
+                      <div class="media-body">
+                        <p><a href="blog-single-post.html">Sed ut perspiciatis unde omnis iste natus error</a></p>
+                        <div class="small text-pale text-light">Feb 4, 2016 / 4 Comments</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="bg-gray-darker section-23">
+          <div class="shell">
+            <div class="range range-sm-justify">
+              <div class="cell-md-7 cell-md-push-1 text-md-right">
+                <ul class="nav">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="classes.html">Classes</a></li>
+                  <li><a href="calendar.html">Calendar</a></li>
+                  <li><a href="trainers.html">Trainers</a></li>
+                  <li><a href="pricing.html">Pricing</a></li>
+                  <li><a href="blog-list.html">blog</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="cell-md-5 offset-top-25 offset-md-top-0 text-md-left">
+                <p class="text-light">© <span id="copyright-year"></span> PureGym. All rights reserved. <a href="privacy.html" class="text-white">Privacy Policy</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+
+<!-- PhotoSwipe Gallery-->
+    <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button title="Close (Esc)" class="pswp__button pswp__button--close"></button>
+            <button title="Share" class="pswp__button pswp__button--share"></button>
+            <button title="Toggle fullscreen" class="pswp__button pswp__button--fs"></button>
+            <button title="Zoom in/out" class="pswp__button pswp__button--zoom"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div>
+          </div>
+          <button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button>
+          <button title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+          <div class="pswp__caption">
+            <div class="pswp__caption__cent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Java script-->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="js/tether/tether.js"></script>
+	<script src="js/tether/tether.min.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+
+</html>
